@@ -1,0 +1,142 @@
+/*Aqui estou alterando as posições de todos os elementos da página*/
+*{margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+/*Aqui estou dando uma cor de fundo para o "corpo" de minha página*/
+body{background-color: rgb(107, 78, 235);}
+
+/*Aqui estou estilizando o título principal do meu Menu*/
+h1{color: white; 
+   font-size: 60px; 
+   margin-bottom: 25px; 
+   padding-top: 5px;
+   padding-left: 5px;
+   font-family: Brush Script MT; 
+   text-align: center;
+}
+
+/*Aqui estou estilizando os links internos do Menu*/
+#menu a{
+   color: white; 
+   font-size: 32px;
+   margin-bottom: 25px;
+   margin-right: 50px; 
+   margin-left: 90px;
+   padding-top: 5px;
+   padding-left: 5px;
+   font-family: Trebuchet MS; 
+   text-decoration: none;
+}
+
+/*Aqui estou estilizando o título "Sobre mim"*/
+#sm1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 115px;
+    font-family: Trebuchet MS;
+    border: 10px groove white;
+    border-radius: 200px;
+}
+
+/*Aqui estou estilizando minha "div" e consequentemente o parágrafo de "Sobre mim"*/
+#sm2{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    line-height: 35px;
+}
+
+/*Aqui estou estilizando o título "Formação educacional"*/
+#fe1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 115px;
+    font-family: Trebuchet MS;
+    border: 10px groove white;
+    border-radius: 200px;
+}
+
+/*Aqui estou estilizando minha "div" e consequentemente a minha lista não ordenada de "Formação educacional"*/
+#fe2{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    line-height: 35px;
+}
+
+/*Aqui estou estilizando o título "Portfólio"*/
+#pf1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 115px;
+    font-family: Trebuchet MS;
+    border: 10px groove white;
+    border-radius: 200px;
+}
+
+/*Aqui estou estilizando minha "div" e consequentemente a minha lista não ordenada de "Portfólio"*/
+#pf2{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    line-height: 35px;
+}
+
+/*Aqui estou estilizando o título "Contato" */
+#ct1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 115px;
+    font-family: Trebuchet MS;
+    border: 10px groove white;
+    border-radius: 200px;
+}
+
+/*Aqui estou estilizando minha "div" e consequentemente os meus parágrafos e meu formulário de "Contato"*/
+#ct2{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-family: Trebuchet MS;
+    line-height: 35px;
+}
+
+/*Aqui estou estilizando o link que quando clicado retorna a página para o início */
+.retorno{
+    color: black;
+    background-color: gray;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 15px solid gray;
+    border-radius: 80px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Trebuchet MS; 
+    text-decoration: none;
+    font-weight: bold;
+}
